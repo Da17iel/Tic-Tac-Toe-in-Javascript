@@ -15,21 +15,24 @@
         <div class="website-grid-item"></div>
         <div class="website-grid-item"></div>
         <div class="website-grid-item">
-            <div class="playing-field">
-                <button value="t-l"></button>
-                <button value="t-m"></button>
-                <button value="t-r"></button>
-                <button value="m-l"></button>
-                <button value="m-m"></button>
-                <button value="m-r"></button>
-                <button value="b-l"></button>
-                <button value="b-m"></button>
-                <button value="b-r"></button>
+            <div id="playing-field">
+                <button id="t-l" onclick="UserInput('t-l')"></button>
+                <button id="t-m" onclick="UserInput('t-m')"></button>
+                <button id="t-r" onclick="UserInput('t-r')"></button>
+                <button id="m-l" onclick="UserInput('m-l')"></button>
+                <button id="m-m" onclick="UserInput('m-m')"></button>
+                <button id="m-r" onclick="UserInput('m-r')"></button>
+                <button id="b-l" onclick="UserInput('b-l')"></button>
+                <button id="b-m" onclick="UserInput('b-m')"></button>
+                <button id="b-r" onclick="UserInput('b-r')"></button>
             </div>
         </div>
         <div class="website-grid-item"></div>
         <div class="website-grid-item"></div>
-        <div class="website-grid-item">So here are the rules<br> you begin with X</div>
+        <div class="website-grid-item">
+            So here are the rules<br> you begin with X <br>
+            <button onclick="resetField()">Reset</button>
+        </div>
     </div>
 </body>
 </html>
