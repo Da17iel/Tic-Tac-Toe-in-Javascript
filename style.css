@@ -11,6 +11,11 @@ button:disabled {
     color: black;
 }
 
+input[type="radio"] {
+    margin: 0;
+    padding: 20px;
+}
+
 .website-grid {
     display: grid;
     grid-template-columns: 20% auto 20%;
