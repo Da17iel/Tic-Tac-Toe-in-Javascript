@@ -2,7 +2,19 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#playing-field button {
+    font-size: 80px;
+}
 
+button:disabled {
+    opacity: 1;
+    color: black;
+}
+
+input[type="radio"] {
+    margin: 0;
+    padding: 20px;
+}
 
 .website-grid {
     display: grid;
@@ -17,7 +29,7 @@ body {
 }
 
 
-.playing-field {
+#playing-field {
     display: grid;
     width: 500px;
     height: 500px;
